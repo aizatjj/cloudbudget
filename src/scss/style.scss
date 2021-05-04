@@ -1,0 +1,25 @@
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../fonts/lato/stylesheet.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container{
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row{
+  margin: 0 -15px;
+}
+@import "header";
+@import "home";
+@import "video";
+@import "features";
+@import "technology";
+@import "slide";
+@import "contact";
+@import "footer";
+@import "media";

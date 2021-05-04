@@ -1,0 +1,90 @@
+.header{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  &__nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo{
+    display: flex;
+    column-gap: 9px;
+  }
+  &__item{
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+  &__img{
+    width: 24px;
+    height: 17px;
+  }
+  &__title{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 25px;
+    list-style-type: none;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;;
+  }
+  &__form{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+  }
+  &__btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &:hover{
+      background: darksalmon;
+      color: #4e4e4e;
+    }
+  }
+  &__langSelect{
+    width: 96px;
+    height: 32px;
+    text-align: center;
+    padding-left: 43px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  &__logo-burger{
+    display: none;
+  }
+}
+
+.dd-options li{
+  margin-top: 10px;
+}

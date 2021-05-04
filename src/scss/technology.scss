@@ -1,0 +1,65 @@
+@mixin before($url, $top){
+  content: $url;
+  position: absolute;
+  left: 50%;
+  top: $top;
+  transform: translate(-50%);
+}
+.technology{
+  padding: 63px 0 104px ;
+  &__title{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    margin-bottom:55px;
+  }
+  &__col-3{
+    padding-bottom: 33px;
+    height: 226px;
+  }
+  &__col-3:first-child &__num::before{
+    @include before (url("../images/technology/Frame 3.png"),45px)
+  }
+  &__col-3:nth-child(2) &__num::before{
+    @include before(url("../images/technology/Frame 4.png"),34px)
+  }
+  &__col-3:nth-child(3) &__num::before{
+    @include before(url("../images/technology/Frame 5.png"),34px)
+  }
+  &__col-3:nth-child(4) &__num::before{
+    @include before(url("../images/technology/Group.png"),30px)
+  }
+  &__num{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    text-align: center;
+    color: rgb(16 16 16 / 45%);
+    position: relative;
+  }
+  &__col-title{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    margin: 19px 0 10px;
+  }
+  &__col-subtitle{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+  }
+}

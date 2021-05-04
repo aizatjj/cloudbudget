@@ -1,0 +1,88 @@
+.header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+}
+.header__nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  column-gap: 9px;
+}
+.header__item a {
+  color: white;
+  text-decoration: none;
+}
+.header__img {
+  width: 24px;
+  height: 17px;
+}
+.header__title {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header__menu {
+  display: flex;
+  column-gap: 25px;
+  list-style-type: none;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header__form {
+  display: flex;
+  column-gap: 25px;
+  align-items: center;
+}
+.header__btn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header__btn:hover {
+  background: darksalmon;
+  color: #4e4e4e;
+}
+.header__langSelect {
+  width: 96px;
+  height: 32px;
+  text-align: center;
+  padding-left: 43px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.header__logo-burger {
+  display: none;
+}
+
+.dd-options li {
+  margin-top: 10px;
+}

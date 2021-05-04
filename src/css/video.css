@@ -1,0 +1,61 @@
+.video {
+  padding: 94px 0 95px;
+}
+.video__title {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  line-height: 43px;
+  margin-top: 46px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.video__subtitle {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  line-height: 140%;
+  margin: 25px 0;
+}
+.video__learnMore {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  line-height: 140%;
+  color: #ED4C5C;
+  text-decoration: none;
+}
+.video__row {
+  display: flex;
+}
+.video__col-6 {
+  height: 311px;
+  position: relative;
+}
+.video__col-6_second {
+  background: url("../images/video/videoim.png") top left/100% 100% no-repeat;
+}
+.video__btn {
+  width: 66px;
+  height: 66px;
+  background: #ED4C5C;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+.video__btn:hover {
+  background: #eeeeee;
+  color: black;
+}
